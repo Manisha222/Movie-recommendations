@@ -1,0 +1,12 @@
+<!-- recommendations.html -->
+<html>
+<body>
+    <h1>Recommendations for {{ movie_name }}</h1>
+    <ul>
+        {% for movie in recommendations %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Back</a>
+</body>
+</html>
